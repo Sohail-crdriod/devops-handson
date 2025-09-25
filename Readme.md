@@ -15,13 +15,13 @@ So lets say if you want to update youre system with a software update and it cau
 
  Connecting Concepts to This Assignment :- 
 
-- By writing automation in `script.sh`, I practiced DevOps principles of automation.  
-- Using Git and GitHub demonstrates CI/CD readiness: commits and branches can be integrated and tested.  
+- By putting all the commands in script.sh, I didn’t have to type them one by one every time. I just ran the script once, and everything happened automatically. This is the same idea in DevOps, instead of    doing things manually (which can be slow and error-prone), we write scripts or use tools to automate tasks. Automation makes work faster, repeatable, and less likely to break because of human mistakes. 
+- Using Git and GitHub demonstrates CI/CD , commits and branches can be integrated and tested.  
 - If I made a mistake, I could use Git to rollback to a previous commit.  
 - Creating the `exam` project structure shows container-like isolation , everything is packaged together and reproducible.  
 
 Assignment process :- 
-1.) So firstly i used mkdir exam command  to create a directory named exam in my home directory. Then used cd command to change the directory to exam in terminal ( cd exam ). 2.) I used nano Readme.md
-command to create and edit the Readme.md file. After that, in the same directory , 3.) i used nano script.sh command to create a file name script.sh and used chmod +x script.sh command to make the script executable and 5.) used ./script.sh > script.log to execute the file. 6.) Then i created a repo in github with the name devops-handson with no read.md file (since we already going to push one) and used git init and git remote add origin https://github.com/Sohail-crdriod/devops-handson.git to initialize it. 7.) Then i used git checkout -b feature to create  branch named feature . git add Readme.md script.sh script.log and git commit -m "Added Readme, script.sh, and script.log" commands were used to commit all three files to the repo. Then i used git push -u origin feature command to push it to the repo.
+1.) So firstly i used mkdir exam command  to create a directory named exam in my home directory. Then used cd command to change the directory to exam in terminal ( cd exam ).2.) I used nano Readme.md
+command to create and edit the Readme.md file. After that, in the same directory , 3.) i used nano script.sh command to create a file name script.sh and used chmod +x script.sh command to make the script executable and 5.) used ./script.sh > script.log to execute the file. 6.) Then i created a repo in github with the name devops-handson with no read.md file (since we already going to push one) and used git init and git remote add origin https://github.com/Sohail-crdriod/devops-handson.git to initialize it. 7.) Then i used git checkout -b feature to create  branch named feature , git add Readme.md script.sh script.log and git commit -m "Added Readme, script.sh, and script.log" commands were used to commit all three files to the repo. Then i used git push -u origin feature command to push it to the repo. ( for pushing it asks your username and password).
 
 
