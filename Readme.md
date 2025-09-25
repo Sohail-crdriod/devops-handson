@@ -1,28 +1,22 @@
-# DevOps Concepts and Demonstration
+DevOps :-
+It is basically the concept of the developer team and operations team working together so they can deliver,build or update software quicker.
 
-## Definitions
+CI (Continuous Integration) :-
+It means that every time a developer writes a new piece of code and adds it to the main project, an automated system immediately takes all the code, builds it into a working application, and runs tests to make sure the new code hasn't broken anything.
 
-**DevOps**  
-A way of working where development and operations teams collaborate to deliver software faster and more reliably.
+CD (Continuous Delivery/Deployment) :-  
+It means the software is released automatically, with no human needing to approve it. The moment the code passes all the automated tests, it goes live to your users.
 
-**CI (Continuous Integration)**  
-Practice of merging code changes frequently into a shared repository, where automated tests run to catch issues early.
+Containerization :-
+Resource isolation at the OS (rather than machine) level, usually (in UNIX-based systems) in user space. So basically it is not the os itself but acts  like one for example providing main features of os like file system, disk quota, CPU and memory, I/O rate, root privileges, and network access. It enables application to run in any environment.
 
-**CD (Continuous Delivery/Deployment)**  
-Ensures that integrated code can be automatically delivered to production (or at least to a staging environment) without manual steps.
+Rollback:- 
+So lets say if you want to update youre system with a software update and it causes a bug or a problem. This is where rollback concept comes in , it enables you to go to a previous state of your system where there was no error to begin with.
 
-**Containerization**  
-Packaging an application and all its dependencies into a lightweight unit (a container) so it runs consistently across environments.
+ Connecting Concepts to This Assignment :- 
 
-**Rollback**  
-Returning a system to a previous stable state if a new release causes problems.
+- By writing automation in `script.sh`, I practiced DevOps principles of automation.  
+- Using Git and GitHub demonstrates CI/CD readiness: commits and branches can be integrated and tested.  
+- If I made a mistake, I could use Git to rollback to a previous commit.  
+- Creating the `exam` project structure shows container-like isolation , everything is packaged together and reproducible.  
 
----
-
-## Connecting Concepts to This Assignment
-
-- By writing automation in `script.sh`, I practiced **DevOps principles of automation**.  
-- Using Git and GitHub demonstrates **CI/CD readiness**: commits and branches can be integrated and tested.  
-- If I made a mistake, I could use Git to **rollback** to a previous commit.  
-- Creating the `exam` project structure shows **container-like isolation** — everything is packaged together and reproducible.  
-- Overall, the workflow (create → test → commit → push) is a mini example of how **DevOps pipelines** work.
