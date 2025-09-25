@@ -21,5 +21,7 @@ So lets say if you want to update youre system with a software update and it cau
 - Creating the `exam` project structure shows container-like isolation , everything is packaged together and reproducible.  
 
 Assignment process :- 
-So firstly i used mkdir exam command  to create a directory named exam in my home directory. Then use cd command to change the directory to exam in terminal ( cd exam ). I used nano Readme.md
-command to create and edit the Readme.md file. After that, in the same directory , i used nano script.sh command to create a file name script.sh
+1.) So firstly i used mkdir exam command  to create a directory named exam in my home directory. Then used cd command to change the directory to exam in terminal ( cd exam ). 2.) I used nano Readme.md
+command to create and edit the Readme.md file. After that, in the same directory , 3.) i used nano script.sh command to create a file name script.sh and used chmod +x script.sh command to make the script executable and 5.) used ./script.sh > script.log to execute the file. 6.) Then i created a repo in github with the name devops-handson with no read.md file (since we already going to push one) and used git init and git remote add origin https://github.com/Sohail-crdriod/devops-handson.git to initialize it. 7.) Then i used git checkout -b feature to create  branch named feature . git add Readme.md script.sh script.log and git commit -m "Added Readme, script.sh, and script.log" commands were used to commit all three files to the repo. Then i used git push -u origin feature command to push it to the repo.
+
+
