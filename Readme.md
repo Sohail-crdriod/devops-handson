@@ -20,3 +20,6 @@ So lets say if you want to update youre system with a software update and it cau
 - If I made a mistake, I could use Git to rollback to a previous commit.  
 - Creating the `exam` project structure shows container-like isolation , everything is packaged together and reproducible.  
 
+Assignment process :- 
+So firstly i used mkdir exam command  to create a directory named exam in my home directory. Then use cd command to change the directory to exam in terminal ( cd exam ). I used nano Readme.md
+command to create and edit the Readme.md file. After that, in the same directory , i used nano script.sh command to create a file name script.sh
