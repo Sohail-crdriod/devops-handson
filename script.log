@@ -24,15 +24,20 @@ drwx--x---+ 1 sohail sohail  794 Sep 25 10:49 ..
 -rwxr-xr-x. 1 sohail sohail  271 Sep 25 10:54 script.sh
 #!/bin/bash
 
--Pwd command is used to print present working directory
+# Print present working directory
+pwd
 
--whoami command is used to print current user’s name
+# Print current user’s name
+whoami
 
--free -h command is used to print memory resources available
+# Print memory resources available
+free -h
 
--df -h command is used to print disk space available
+# Print disk space available
+df -h
 
--ls -la command is used to list all files in current directory
+# List all files in current directory
+ls -la
 
--cat script.sh command is used to print the contents of script.sh itself
-
+# Print the contents of script.sh itself
+cat script.sh
